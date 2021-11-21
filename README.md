@@ -2,7 +2,7 @@
 
 Utilizes [matter-js](https://github.com/liabru/matter-js) to render a pit of balls. Each ball is labeled with a random letter from the input string. The input string can be anything but lyrics work best! 📖 🎶
 
-## Inpsiration
+## Inspiration
 
 The idea was inspired by posters like the following:
 
