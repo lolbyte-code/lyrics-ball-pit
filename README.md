@@ -22,4 +22,10 @@ Uses CSS to randomly rotate and space each letter within a box.
 
 See `src/CssImpl.js`
 
+## Build & Run
 
+Set `visToggle` in `src/App.js` to false to use the CSS visualization and true to use the physics visualization.
+
+```bash
+> npm install && npm start
+```
