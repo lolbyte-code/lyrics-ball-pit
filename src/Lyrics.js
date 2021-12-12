@@ -1,4 +1,4 @@
-const lyrics = `
+export const defaultLyrics = `\
 We're all looking for someone, that perfect girl
 Who can take our hand and help us see the world
 But I'm a little unusual, because you see
@@ -35,19 +35,3 @@ Oh, do you wanna do nothing with me?
 Do you wanna do nothing with me?
 Do you wanna do nothing with me?
 `
-
-export const getLetters = () => {
-    const letters = lyrics.split("").filter(letter => letter.match(/[A-z]/g))
-    return groupBy(letters)
-}
-
-const groupBy = (arr) => {
-    return arr.reduce((acc, obj) => {
-       const key = obj
-       if (!acc[key]) {
-          acc[key] = 0
-       }
-       acc[key]++
-       return acc
-    }, {})
-}
